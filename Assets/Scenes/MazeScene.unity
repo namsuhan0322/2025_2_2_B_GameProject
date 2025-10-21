@@ -264,7 +264,7 @@ MonoBehaviour:
   height: 10
   cellPrefab: {fileID: 4786349310319372919, guid: dac69cddf54136446b060c46c5635230, type: 3}
   cellSize: 2
-  visualizeGeneration: 0
+  visualizeGeneration: 1
   viaulizationSpeed: 0.05
   visitedColor: {r: 0, g: 1, b: 1, a: 1}
   currentColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
