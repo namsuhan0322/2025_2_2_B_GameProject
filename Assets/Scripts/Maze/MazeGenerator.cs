@@ -22,6 +22,11 @@ public class MazeGenerator : MonoBehaviour
     private MazeCell[,] _maze;
     private Stack<MazeCell> _cellStack;                              //DFS를 위한 스택 
 
+    private void Awake()
+    {
+        if (Instance == null) Instance = this;
+    }
+
     void Start()
     {
         GenerateMaze();
